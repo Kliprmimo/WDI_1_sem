@@ -1,3 +1,13 @@
+'''
+Zadanie 2.
+Napisz funkcję create_3d(int N), która tworzy tablicę trójwymiarową o rozmiarze N×N×N, gdzie N jest pobierane od użytkownika.
+Funkcja powinna zwracać tablicę trójwymiarową wypełnioną liczbami losowymi,które następnie należy odpowiednio uszeregować
+w funkcji arrange_3d(argumentem jest tablica).Porządkowanie powinno być przeprowadzone względem trzeciego wymiaru – na wyznaczonej 
+przez niego płaszczyźnie należyuporządkować elementy rosnąco po spirali. Wykorzystując funkcję save_positions(argumentem jest tablica)
+należy wpisać do pliku stare i nowe pozycje elementu w danej płaszczyźnie
+'''
+
+
 import random
 
 
